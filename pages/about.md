@@ -1,18 +1,14 @@
 ---
 layout: page
 title: About
-description: 打码改变世界
-keywords: Zhuang Ma, 马壮
-comments: true
+description: A Nerd
+keywords: Shenyao Jin, 金沈尧
+comments: false
 menu: 关于
 permalink: /about/
 ---
 
-我是马壮，码而生，码而立。
-
-仰慕「优雅编码的艺术」。
-
-坚信熟能生巧，努力改变人生。
+I'm Shenyao Jin.
 
 ## 联系
 
