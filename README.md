@@ -1,4 +1,5 @@
-# 码志
+# Forked from 码志
+谢谢**壮哥**！
 
 我的个人博客：<https://mazhuang.org>，欢迎 Star 和 Fork。
 
