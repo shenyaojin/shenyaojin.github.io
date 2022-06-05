@@ -5,7 +5,7 @@ baseurl:
 url: https://shenyaojin.github.io
 date_format: "ordinal"
 title: Shenyao Jin's blog
-subtitle: "That;s how we define SCIENCE"
+subtitle: "That's how we define SCIENCE"
 description: "Shenyao Jin (Keith)'s Blog"
 keywords: Shenyao Jin, Keith, Geophysics, Zhejiang Univ.
 timezone: Asia/Shanghai
@@ -31,7 +31,7 @@ components:
         start_date: 2020-05-03
     # My Popular Repositories
     side_bar_repo:
-        enabled: true
+        enabled: false
         limit: 5
     # 文章字数统计
     word_count:
@@ -54,12 +54,12 @@ highlight_theme: github
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
-organization: 
-organization_url: 
-github_username: mzlogin
-location: Wuhan, China
-email: chumpma@gmail.com
+author: Shenyao Jin
+organization: Zhejiang University
+organization_url: http://ckc.zju.edu.cn/
+github_username: shenyaojin
+location: Hangzhou, China
+email: shenyao_jin@zju.edu.cn
 
 # ---------------- #
 #    Navigation    #
