@@ -1,19 +1,12 @@
-- name: Software Engineer Keywords
+- name: Seismic Data Processing
   keywords:
-      - Java
-      - C++
       - Python
-      - Design Patterns
+      - C/C++
+      - MATLAB
+      - Seismic Unix(SU)
 
-- name: Mobile Developer Keywords
+- name: Object-oriented programming (OOP)
   keywords:
-      - Android
-      - Reverse Engineering
-
-- name: Windows Developer Keywords
-  keywords:
-      - Win32 SDK
-      - DuiLib
-      - WTL
-      - COM
-      - WinDbg
+      - Python
+      - C++
+      - Programming Skills
