@@ -4,5 +4,13 @@
 
 - name: nexushd
   url: http://www.nexushd.org
-  src: life
+  src: www
 
+- name: Zhejiang Univ.
+  url: https://www.zju.edu.cn/english
+  src: www
+
+- name: Chu Kochen Honors College
+  url: http://ckc.zju.edu.cn/ckcen/
+  src: www
+  
