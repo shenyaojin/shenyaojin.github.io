@@ -67,11 +67,11 @@ email: shenyao_jin@zju.edu.cn
 navs:
   -
     href: /
-    label: 首页
+    label: Title
 
   -
     href: /categories/
-    label: 分类
+    label: Catagories
 
 #   -
 #     href: /archives/
@@ -83,15 +83,15 @@ navs:
 
   -
     href: /wiki/
-    label: 维基
+    label: Wiki
 
   -
     href: /links/
-    label: 链接
+    label: Links
 
   -
     href: /about/
-    label: 关于
+    label: About
 
 # ---------------- #
 #       RSS        #
@@ -139,14 +139,14 @@ gitment:
     owner: mzlogin
     repo: blog-comments
     oauth:
-        client_id: d2e1cbbd298958076462
-        client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+        client_id: 87bd4f3db6fd8f00a7b1
+        client_secret: 95248382725a502bf46108c86f3bba5e609af67b
 # gitalk 配置参考：https://github.com/gitalk/gitalk#install
 gitalk:
     owner: mzlogin
     repo: blog-comments
-    clientID: d2e1cbbd298958076462
-    clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+    clientID: 87bd4f3db6fd8f00a7b1
+    clientSecret: 95248382725a502bf46108c86f3bba5e609af67b
 # utterances 配置参考：https://utteranc.es/
 utterances:
     repo: mzlogin/blog-comments
