@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My first blog
-categories: Others
+categories: diary
 description: This is a blog to memorize the first time I post a blog!
 keywords: Others
 ---
