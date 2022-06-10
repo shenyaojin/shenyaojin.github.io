@@ -4,15 +4,14 @@
 baseurl:
 url: https://shenyaojin.github.io
 date_format: "ordinal"
-title: Shenyao Jin
-subtitle: "That's how we define SCIENCE"
+title: Shenyao Jin's Blog
+subtitle: "Thoughts, Notes and Ideas"
 description: "Shenyao Jin (Keith)'s Blog"
 keywords: Shenyao Jin, Keith, Geophysics, Zhejiang Univ.
 timezone: Asia/Shanghai
 encoding: "utf-8"
-# 页面左下角显示的年份
 since: 2022
-# 源码仓库，请替换成自己的
+# 源码仓库
 repository: shenyaojin/shenyaojin.github.io
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
