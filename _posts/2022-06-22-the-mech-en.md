@@ -130,7 +130,7 @@ Usually in the form of **additional questions**.
 
 ## tensors
 
-Required. Master Xiaoguang's writing is not very good.
+Required. Wang Xiaoguang's writing is not very good.
 
 - "**Tensor Analysis**" written by Huang Kezhi and published by Tsinghua University Press under self-study. Chapter One
 
@@ -304,6 +304,6 @@ Required.
 
 - It's easy to get the score of this question, remember how the teacher and the teaching assistant brother proved it, just put it on it, it doesn't matter if you don't understand it, you can just memorize it, anyway, the process is very small.
 
-##PS
+## PS
 
 I found out that Master Xiaoguang's teacher is **Yang Zhenning**. Then I am the grandson of the old gentleman, lol.
