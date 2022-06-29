@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [EN] Summary on Theoretical Mechanics in D. Physics, ZJU
+title: 【EN】 Summary on Theoretical Mechanics in D. Physics, ZJU
 categories: Physics
 description: None.
 keywords: Group theory, Theoretical mechanics
