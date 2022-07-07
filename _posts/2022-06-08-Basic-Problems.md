@@ -61,13 +61,13 @@ $$
 
 ### Differential
 
-**Forward Differential**: $f'(x)\approx\frac{f(x+h)-f(x)}{h}+o(h)$
+**Forward Differential**: $$f'(x)\approx\frac{f(x+h)-f(x)}{h}+o(h)$$ 
 
-**Backward Differential**: $f'(x)\approx\frac{f(x)-f(x-h)}{h}+o(h)$
+**Backward Differential**: $$f'(x)\approx\frac{f(x)-f(x-h)}{h}+o(h)$$
 
-**Central Differential**: $f'(x)\approx\frac{f(x+h)-f(x-h)}{2h}+o(h^2)$
+**Central Differential**: $$f'(x)\approx\frac{f(x+h)-f(x-h)}{2h}+o(h^2)$$
 
-**Explicit**: $u_{j+1}=u_j-f(u_j,t_j)\Delta t$
+**Explicit**: $$u_{j+1}=u_j-f(u_j,t_j)\Delta t$$
 
 **Implicit** & Crank-Nocolson form
 
