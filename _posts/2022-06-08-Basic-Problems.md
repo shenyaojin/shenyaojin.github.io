@@ -4,6 +4,7 @@ title: Basic Problem in computational geophysics
 categories: Geophysics
 description: None.
 keywords: Forward Modeling, numerical methods
+
 ---
 
 # Basic Problems - 1
