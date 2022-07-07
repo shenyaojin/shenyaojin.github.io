@@ -19,15 +19,13 @@ keywords: Forward Modeling, numerical methods
 
 ## Green Function
 
-$$
-Lu=0/-f(x,t)
-$$
+$$Lu=0/-f(x,t)$$
 
 L is 2-order diffferential oprator.
 
-In **gravity/magnetic** method: $L=\Delta=\frac{\partial^2}{\partial x^2}+\frac{\partial^2}{\partial y^2}+\frac{\partial^2}{\partial z^2}$
+In **gravity/magnetic** method: $$L=\Delta=\frac{\partial^2}{\partial x^2}+\frac{\partial^2}{\partial y^2}+\frac{\partial^2}{\partial z^2}$$
 
-**Electromagnetic**: $L=\Delta+k^2$, $k=\omega^2\mu\epsilon/c^2+i4\pi\omega\mu r/c^2$
+**Electromagnetic**: $$L=\Delta+k^2$, $k=\omega^2\mu\epsilon/c^2+i4\pi\omega\mu r/c^2$$
 
 **Seismic**: $L=\Delta-\frac{1}{v^2}\frac{\partial^2}{\partial t^2}$
 
