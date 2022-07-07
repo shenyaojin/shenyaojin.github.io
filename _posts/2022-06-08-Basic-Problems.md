@@ -4,7 +4,7 @@ title: Basic Problem in computational geophysics
 categories: Geophysics
 description: None.
 keywords: Forward Modeling, numerical methods
-
+mathjax: true
 ---
 
 # Basic Problems - 1
@@ -27,7 +27,7 @@ In **gravity/magnetic** method: $$L=\Delta=\frac{\partial^2}{\partial x^2}+\frac
 
 **Electromagnetic**: $$L=\Delta+k^2$, $k=\omega^2\mu\epsilon/c^2+i4\pi\omega\mu r/c^2$$
 
-**Seismic**: $L=\Delta-\frac{1}{v^2}\frac{\partial^2}{\partial t^2}$
+**Seismic**: $$L=\Delta-\frac{1}{v^2}\frac{\partial^2}{\partial t^2}$$
 
 ### The physical meaning of Green function
 
