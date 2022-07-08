@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Inversion theory
-categories: geophysics
+categories: Geophysics
 description: Describe some basic method to run the inversion
 keywords: inversion, least-square
 mathjax: true
