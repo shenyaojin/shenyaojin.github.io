@@ -25,3 +25,12 @@ It is usually determined by the length of fiber.
 
 # Spatial resolution
 ![](/images/blog/DAS/SP_RE.png)
+
+spatial resolution is $$\delta z$$ in this figure.
+
+![](/images/blog/DAS/SP_RE2.png)
+
+- Solid line is actual measurement 
+- Broken line is detected by the sensor.
+
+# Measurement time
