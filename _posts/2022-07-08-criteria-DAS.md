@@ -4,6 +4,7 @@ title: Four key criteria
 categories: DAS
 description: Some principles to measure the performance of DAS
 keywords: DAS, geophysics
+mathjax: true
 ---
 
 # Four key criteria

@@ -4,6 +4,7 @@ title: DFOS applications introduction
 categories: DAS
 description: Applications of DFOS, including DAS
 keywords: DAS, geophysics
+mathjax: true
 ---
 
 # DFOS Applications introduction
