@@ -4,6 +4,7 @@ title: Inversion theory
 categories: geophysics
 description: Describe some basic method to run the inversion
 keywords: inversion, least-square
+mathjax: true
 ---
 
 # Inversion methods
