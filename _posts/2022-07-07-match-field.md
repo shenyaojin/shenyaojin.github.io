@@ -54,5 +54,11 @@ $$Y_{3C}(s.f) = e^H(s,f)R_{3C}(f)e(s,f)$$
 
 > 极化协方差矩阵(Y)也称为复埃尔米特矩阵，同极化散射矩阵一样，它也包含了雷达测量得到的全部目标极化信息。极化SAR 图像处理过程一般都是在极化协方差矩阵和极化相干矩阵的基础上进行，它是进行多极化SAR数据分析和处理的基础。
 
+Relationship with power and eigenvalue/vector(decomposed from Y): 
 
+$$P_{3C}=|\vec u_{3C}|^2\lambda_0$$
+
+Here we get the components of the eigenvector and we could rotate it into the desired direction.
+
+With this transform, we process the data again, but replace the original data with the rotated data.
 

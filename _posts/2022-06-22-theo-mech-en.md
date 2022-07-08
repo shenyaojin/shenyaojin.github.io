@@ -4,9 +4,10 @@ title: 【EN】 Summary on Theoretical Mechanics in D. Physics, ZJU
 categories: Physics
 description: None.
 keywords: Group theory, Theoretical mechanics
+mathjax: true
 ---
 
-#### Glossary
+#### noun
 
 Levi-Civita notation: Parity permutation of 1,-1,0. See also permutation groups.
 
@@ -16,145 +17,13 @@ e(i) × e(j) = e(ijk) e(k) . k is a dummy index.
 
 Natural coordinate system: Use the parameters of the motion track itself to define the coordinate system. For example, the tangential direction and the normal direction of a two-dimensional curve can be used as a set of natural coordinate systems.
 
-Tangent Vector: A unit vector representing the tangent direction at a point. **formula:**
+Tangent Vector: A unit vector representing the tangent direction at a point. **formula**
 
 Principal Normal: Indicates the direction in which the curve bends. formula
 
-Secondary normal vector : The third set of normal vectors defined by cross product. formula:
+Secondary normal vector : The third set of normal vectors defined by cross product. formula
 
-Rotation frequency:
-
-Curvature: The degree to which the curve bends.
-
-Functional: Y is a set of functions, if for each y(x) there is a number J corresponding to it. Then the variable J is a functional of y(x).
-
-Variation: The difference of the function caused by the change of the independent variable and the change of y(x).
-
-scattering cross section
-
-Seven Conserved Quantities of Inverse Square Psychic Force Field
-
-Center of mass: a physical quantity used to simplify a system of particles, the formula
-
-centroid velocity
-
-König's theorem: The total kinetic energy of a system of particles is equal to the sum of the kinetic energy of the center of mass and the kinetic energy of the motion of all particles relative to the center of mass.
-
-Normal Coordinates: The motion pattern of a many-body system is a superposition of a series of frequency oscillations. The coordinates of the independent harmonic oscillators of this array are normal coordinates
-
-normal frequency
-
-Rigid body: a system of mass points with a constant distance between any two points
-
-radius of gyration
-
-Inertia ellipsoid
-
-main moment of inertia
-
-Inertia spindle
-
-Euler angles
-
-Tensor
-
-Classification of Rigid Body Motion
-
-XX constraints (there are many kinds of constraints, figure out how to classify them by yourself)
-
-virtual work principle
-
-virtual work
-
-Cyclic coordinates
-
-Hamilton's principle (principle of least action) (and so important!!)
-
-Active power
-
-restraint reaction
-
-Regular transformation
-
-Definition of symplectic group
-
-Jacobian identity
-
-virial theorem
-
-phase space
-
-configuration space
-
-## Variational method to solve the problem
-
-- Euler's equation: Variational method to solve problems, pay attention to ** the use of the first integral constant is conditional**
-
-- Exercise 1.12
-
-- The subject will be relatively simple
-
-## Normal coordinates and normal frequencies of many-body interactions
-
-Carefully read the 2.3 Many-body Interaction section in the book, and then combine it with Exercise 2.5 (I took the test last year), and do the math by myself (until it is correct)
-
-## Prove the conservation of the R-L vector in the inverse square proportional force field
-
-read books.
-
-## Action calculation
-
-- 3.4 Read carefully
-
-- Exercise 3.14
-
-## Regular equation
-
-**Required**.
-
-(1) Prove the canonical equation by the relationship between Hamiltonian and Laplace
-
-(2) Prove the regular equation by Hamilton's principle
-
-(3) Give the Hamiltonian of the free particle in the spherical coordinate system
-
-Note: **The representation of Hamiltonian cannot show speed**
-
-## Poisson brackets
-
-need to know how
-
-## Solve the problem using the H-J method
-
-Usually in the form of **additional questions**.
-
-## tensors
-
-Required. Wang Xiaoguang's writing is not very good.
-
-- "**Tensor Analysis**" written by Huang Kezhi and published by Tsinghua University Press under self-study. Chapter One
-
-- It's easy to get the score of this question, remember how the teacher and the teaching assistant brother proved it, just put it on it, it doesn't matter if you don't understand it, you can just memorize it, anyway, the process is very small.
-
-##PS
-
-I found out that Master Xiaoguang's teacher is **Yang Zhenning**. Then I am the grandson of the old gentleman, lol. Glossary
-
-Levi-Civita notation: Parity permutation of 1,-1,0. See also permutation groups.
-
-Kroneeker notation: represented by delta. Equals 0 when the two metrics are equal.
-
-e(i) × e(j) = e(ijk) e(k) . k is a dummy index.
-
-Natural coordinate system: Use the parameters of the motion track itself to define the coordinate system. For example, the tangential direction and the normal direction of a two-dimensional curve can be used as a set of natural coordinate systems.
-
-Tangent Vector: A unit vector representing the tangent direction at a point. **formula:**
-
-Principal Normal: Indicates the direction in which the curve bends. formula
-
-Secondary normal vector : The third set of normal vectors defined by cross product. formula:
-
-Rotation frequency:
+Rotation frequency: $$f=\sqrt{I}{m}$$
 
 Curvature: The degree to which the curve bends.
 
@@ -180,7 +49,7 @@ Rigid body: a system of mass points with a constant distance between any two poi
 
 Radius of gyration: Moment of inertia divided by the square root of mass. is an inherent property of an object.
 
-Inertia ellipsoid
+Inertia ellipsoid: an ellipse composed of three eigenvalues ​​after the orthogonalization of the moment of inertia tensor.
 
 Main moment of inertia: the moment of inertia in three directions obtained by orthogonalizing the moment of inertia.
 
@@ -214,7 +83,7 @@ Here is another classification:
 
 - Holistic Constraints: Constraints are related to the coordinates and time of the system.
 
-- Incomplete constraints: solvable constraints that cannot be expressed in terms of equations; constraints that are not geometric constraints after integration of differential constraints.
+- Incomplete constraints: Solvable constraints that cannot be expressed in terms of equations; constraints that are not geometric constraints after integration of differential constraints.
   
   This defines the complete system and the incomplete system.
 
@@ -268,6 +137,12 @@ Orthogonal decomposition is used to obtain normal coordinates and normal frequen
 
 read books. The proof is complicated.
 
+From this, Galileo's theorem and Binet's equation can be derived:
+
+$$
+
+$$
+
 ## Action calculation
 
 - relatively difficult
@@ -296,7 +171,7 @@ Usually in the form of **additional questions**.
 
 **H-J Method**: Hamilton-Jacobi Method
 
-## tensors
+## Tensor
 
 Required.
 
@@ -304,6 +179,6 @@ Required.
 
 - It's easy to get the score of this question, remember how the teacher and the teaching assistant brother proved it, just put it on it, it doesn't matter if you don't understand it, you can just memorize it, anyway, the process is very small.
 
-## PS
+##PS
 
 I found out that Master Xiaoguang's teacher is **Yang Zhenning**. Then I am the grandson of the old gentleman, lol.
