@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Connect to Mines' server in Linux Client
-categories: Computer Science
+categories: Computer_Science
 description: Introduce how to connect to RCP server on newest Linux system like ubuntu.
 keywords: fix bug
 ---
