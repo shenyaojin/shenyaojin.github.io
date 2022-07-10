@@ -1,10 +1,10 @@
 # Forked from 码志
 
-感谢Ma Zhuang的一直在维护这些代码。
+感谢Ma Zhuang之前维护过代码。
 
 ## Description
 
-Sy Jin's blog.
+Sy Jin's blog. 
 
 ## Adress
 
