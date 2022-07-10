@@ -4,6 +4,7 @@ title: Research on DAS-Recorded data of Lake Hatti(update on 9th Jul)
 categories: DAS, Geophysics
 description: None.
 keywords: Summer research
+mathjax: true
 ---
 
 # Connect to RCP server
