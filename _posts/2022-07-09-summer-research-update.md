@@ -47,3 +47,11 @@ info = h5info(filename);
 So I'll try to use python now.
 
 ## Python's version
+I will use h5py to read the data.
+
+### Use anaconda to install the package
+```bash
+conda activate base
+conda install h5py
+```
+
