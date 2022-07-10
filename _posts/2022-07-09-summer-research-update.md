@@ -55,3 +55,15 @@ conda activate base
 conda install h5py
 ```
 
+### Read the data
+Data: 
+> DFOS_Class_deformation_UTC-YMD20210527-HMS192431.605_seq_00000000000
+
+### Output the resampling data
+I resampled this data. Then there are about 22000 points each channel.
+
+The output file size is around 120 Mb(in txt form).
+
+
+### Output the strain data
+use "diff" to get the strain data. Here is a small question: I'm not quite sure that I need to do the differential before resampling (interval is 1 point, that means $$\Delta = a_{t+1} - a_{t}$$ ) or after resampling(Interval is about 50 points, $$\Delta = a_{t+50} - a_{t}$$).
