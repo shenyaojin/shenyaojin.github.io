@@ -14,7 +14,7 @@ I have connected to Zhejiang University's cluster server before, so it's relativ
 
 # Process the data
 
-I decide to use MATLAB first. In common sense, MATLAB will perform better in I/O.
+I decide to use MATLAB first. In common sense, MATLAB will perform a bit better than python while reading the data. However, I faced some problems while reading the data. 
 
 ## MATLAB's version
 
@@ -31,9 +31,7 @@ Error in read_data (line 13)
 info = h5info(file_name);
 ```
 
-I faced some problems while reading the data. 
-
-Before MATLAB 2022a it will return another error: 
+If the version is older than MATLAB 2022a it will return another error: 
 ```
 Error using h5infoc
 The filename specified was either not found on the MATLAB path or it contains unsupported characters.
@@ -45,7 +43,7 @@ Error in read_data (line 18)
 info = h5info(filename);
 ```
 
-So I'll try to use python now.
+That's so weird. So I'll try to use python now.
 
 ## Python's version
 I will use h5py to read the data.
@@ -68,3 +66,66 @@ The output file size is around 120 Mb(in txt form).
 
 ### Output the strain data
 use "diff" to get the strain data. Here is a small question: I'm not quite sure that I need to do the differential before resampling (interval is 1 point, that means $$\Delta = a_{t+1} - a_{t}$$ ) or after resampling(Interval is about 50 points, $$\Delta = a_{t+50} - a_{t}$$).
+
+### Appendix: code here.
+It is also saved in the working folder. 
+
+```python
+import h5py as h5
+import numpy as np
+import os
+# This script is created by SY Jin on 9th Jul, 2022
+# Tested on Linux(ubuntu 22.04 LTS).
+# To read a DAS-record data file in python. (2G around)
+
+# define the file name
+file_name = "DFOS_Class_deformation_UTC-YMD20210527-HMS192431.605_seq_00000000000.hdf5"
+new_name = file_name.strip(".hdf5")
+
+# clear the flag of file.
+os.system("h5clear -s %s" % file_name)
+
+# Read the file into variation f
+dataset = h5.File(file_name, 'r')
+# reveal the dimension of the data.
+dimension_data = list(dataset.keys())
+
+deformation = dataset['deformation']
+# print(dataset["/deformation/data"][0])
+# <- this will output one channel(416 data)
+# data:
+# channel   1 2 3 ... 416
+# time:
+#       1
+#       2
+#       ...
+#       1095520
+# output to a txt file.
+# file_name
+
+output_re_sampling_txt_filename = new_name + "_resampling.txt"
+output_strain_txt_filename = new_name + "_strain.txt"
+# output the re-sampling file
+data = dataset["/deformation/data"]
+shape_data = np.shape(data) # time, channel
+f_resampling = open(output_re_sampling_txt_filename, 'w')
+f_strain = open(output_strain_txt_filename, 'w')
+interval = 50
+
+for i in range(int(shape_data[0]/interval)-1):
+    temp_resampling = (data[interval*i])  # interval == 50
+    temp_strain = (np.abs(data[i+interval] - data[i]))
+    # write into file
+    for j in range(shape_data[1]): # number of channel
+        f_resampling.write(str(temp_resampling[j]))
+        f_resampling.write(" ")
+        f_strain.write(str(temp_strain[j]))
+        f_strain.write(" ")
+    f_resampling.write("\n")
+    f_strain.write("\n")
+
+f_resampling.close()
+f_strain.close()
+
+
+```
