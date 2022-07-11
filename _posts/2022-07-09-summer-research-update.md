@@ -67,6 +67,8 @@ The output file size is around 120 Mb(in txt form).
 ### Output the strain data
 use "diff" to get the strain data. Here is a small question: I'm not quite sure that I need to do the differential before resampling (interval is 1 point, that means $$\Delta = a_{t+1} - a_{t}$$ ) or after resampling(Interval is about 50 points, $$\Delta = a_{t+50} - a_{t}$$).
 
+Anyway, I chose the latter method to do the differential because I believe it'll be more reasonable.
+
 ### Appendix: code here.
 It is also saved in the working folder. 
 

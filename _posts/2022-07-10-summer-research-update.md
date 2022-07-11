@@ -20,6 +20,8 @@ Note that the first image's data is normalized. Here's a version that is not nor
 
 ## Appendix: codes here
 
+It is also saved in the working folder. 
+
 ```python
 import matplotlib.pyplot as plt
 import numpy as np
