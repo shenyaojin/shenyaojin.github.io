@@ -82,7 +82,7 @@ $$
 A_{DAS}^2=2A^2(1-\cos(k_{app}L_G))
 $$
 
-while $$k_{app}=\frac{2\pi}\lambda_{app}$$. And
+while $$k_{app}=\frac{2\pi}{\lambda_{app}}$$. And
 
 $$
 \lambda_{app}=\frac{\lambda}{\cos\theta}
