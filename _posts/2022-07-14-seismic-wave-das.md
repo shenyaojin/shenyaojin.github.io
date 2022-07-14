@@ -91,11 +91,16 @@ $$
 ## Connection between two situations
 
 If $$kL_G\ll1$$, we have:
+
 $$
 \cos(kL_G)\approx1-\frac{k^2L_G^2}{2}
 $$
+
 Then, 
+
 $$
 A_{DAS}=AkL_G
 $$
+
+
 So it's still linear.
