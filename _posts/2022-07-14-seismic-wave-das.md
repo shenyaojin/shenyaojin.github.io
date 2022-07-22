@@ -2,7 +2,7 @@
 layout: post
 title: Measurements of seismic waves
 categories: DAS
-description: DAS syste,
+description: DAS system
 keywords: DAS, geophysics
 mathjax: true
 ---
