@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Undersampling and 
+title: Undersampling and Aliasing
 categories: [Signal processing]
 description: Signal processing
 keywords: Signal processing
