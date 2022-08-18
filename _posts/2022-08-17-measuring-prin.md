@@ -21,7 +21,7 @@ $$
 I_{as}(T) = \frac{K_{as}}{\lambda_{as}^4}\cdot\frac{1}{exp(\frac{h\cdot v_R\cdot c}{k_B\cdot T})-1}
 $$
 
-It could be simplified to the following formula: 
+It could be simplified to the following formula, applying the ratio: 
 
 $$
 R(T) = (\frac{K_{as}}{K_s})(\frac{\lambda_s}{\lambda_{as}})^4exp(-\frac{S_{LE}}{T})
