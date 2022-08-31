@@ -167,15 +167,17 @@ comments: false
 </section>
 
 <section>
-  <div class="sakana-box">
-    <script src="https://cdn.jsdelivr.net/npm/sakana"></script>
-    <script>
-    Sakana.init({
-      el:         '.sakana-box',     // 启动元素 node 或 选择器
-      scale:      .5,                // 缩放倍数
-      canSwitchCharacter: true,      // 允许换角色
-    });
-    </script>
-  </div>
-
+  <div class="sakana-box"></div>
+  <script src="https://cdn.jsdelivr.net/npm/sakana@1.0.8"></script>
+  <script>
+  // 取消静音
+  Sakana.setMute(false);
+  
+  // 启动
+  Sakana.init({
+    el:         '.sakana-box',     // 启动元素 node 或 选择器
+    scale:      .5,                // 缩放倍数
+    canSwitchCharacter: true,      // 允许换角色
+  });
+  </script>
 </section>
