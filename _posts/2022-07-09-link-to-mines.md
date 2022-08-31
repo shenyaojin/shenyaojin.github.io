@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Connect to Mines' server in Linux Client
+title: Connect to Midland server in Linux Client (Ubuntu)
 categories: Computer_Science
 description: Introduce how to connect to RCP server on newest Linux system like ubuntu.
 keywords: fix bug
