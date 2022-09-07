@@ -1,11 +1,11 @@
-# Forked from 码志
+# Template
 
-感谢Ma Zhuang之前维护过代码。
+[Mazhi](https://mazhuang.org)
 
-## Description
+# Description
 
-Sy Jin's blog. 
+Sy Jin's blog. I wrote my thoughts here.
 
-## Adress
+# Adress
 
 [**Here.**](https://shenyaojin.github.io)
