@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Research on DAS-Recorded data of Lake Hatti(update on 10th Jul)
-categories: DAS Geophysics
+categories: [DAS, Geophysics]
 description: None.
 keywords: Summer research
 ---
