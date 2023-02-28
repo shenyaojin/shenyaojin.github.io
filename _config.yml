@@ -4,10 +4,10 @@
 baseurl:
 url: https://shenyaojin.github.io
 date_format: "ordinal"
-title: Shenyao Jin's Blog
+title: Shenyao's Blog
 subtitle: "Thoughts, Notes and Ideas"
-description: "Shenyao Jin (Keith)'s Blog"
-keywords: Shenyao Jin, Keith, Geophysics, Zhejiang Univ.
+description: "My Blog"
+keywords: Shenyao Jin, Geophysics, Zhejiang Univ.
 timezone: Asia/Shanghai
 encoding: "utf-8"
 since: 2022
@@ -39,7 +39,7 @@ components:
     # 修改图片请替换 assets/images/qrcode.jpg
     qrcode:
         enabled: false
-        image_alt: 闷骚的程序员
+        image_alt: :)
     # 维基索引页使用哪种视图，支持 列表（list）/分类（cate）
     wiki:
         view: cate
@@ -54,8 +54,8 @@ highlight_theme: github
 #      Author      #
 # ---------------- #
 author: Shenyao Jin
-organization: Chu Kochen Honors College(CKCHC), Zhejiang University
-organization_url: https://en.wikipedia.org/wiki/Zhejiang_University#Chu_Kochen_Honors_College
+organization: RCP Lab, Mines geophysics
+organization_url: https://rcp.mines.edu/
 github_username: shenyaojin
 location: Hangzhou, China
 email: shenyao_jin@zju.edu.cn

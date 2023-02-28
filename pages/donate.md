@@ -8,13 +8,13 @@ menu: 赞助
 permalink: /donate/
 ---
 
-> 做了一些微小的事情，如果对你有帮助，可以考虑请我喝杯咖啡。
+> DO NOT ACCEPT ANY DONATE. THANKS.
 > 
 > Did some tiny things, consider buying me a cup of coffee if it helps you.
 
 ## Paypal
 
-[Donate via Paypal](https://paypal.me/mzlogin)
+[Donate via Paypal](https://paypal.me/)
 
 ## 微信 / Wechat
 
