@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Connect to Midland server in Linux Client (Archlinux)
-categories: [Computer Science]
+categories: [Programming Skills]
 description: Introduce how to connect to RCP server on newest Linux system like arch.
 keywords: fix bug
 ---
