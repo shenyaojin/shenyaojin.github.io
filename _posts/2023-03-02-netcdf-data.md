@@ -1,6 +1,6 @@
 ---
 layout: post
-title: \\[How to] Read NetCDF 4 Data with python
+title: /[How to] Read NetCDF 4 Data with python
 categories: [Programming Skills]
 description: Describe the functions to read, generate and modify the NetCDF 4 data
 keywords: Python, NetCDF4
