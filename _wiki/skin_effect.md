@@ -14,5 +14,9 @@ mathjax: true
 
 ## Attenuation
 
-Attenuation defines the rate of amplitude loss an EM wave experiences at it propagates. The attenuation of an EM wave is defined by the parameter $\beta$. 
+Attenuation defines the rate of amplitude loss an EM wave experiences at it propagates. The attenuation of an EM wave is defined by the parameter $$\beta$$. For a down-going planewave, the attenuation is defined as: 
+$$
+A(z) = A_0e^{\beta z}
+$$
+
 
