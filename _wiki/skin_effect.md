@@ -1,6 +1,6 @@
 ---
 layout: wiki
-title: Skin effect in geophysics
+title: Skin effect (Geophysics)
 cate1: geophysics
 cate2: physics
 description: We are familiar with skin effects in physics, which is phenomena reduces the effective cross-section of the conductor and thus increases its effective resistance.
@@ -14,5 +14,5 @@ mathjax: true
 
 ## Attenuation
 
-Attenuation defines the rate of amplitude loss an EM wave experiences at it propagates. The attenuation of an EM wave is defined by the parameter 
+Attenuation defines the rate of amplitude loss an EM wave experiences at it propagates. The attenuation of an EM wave is defined by the parameter $\beta$. 
 
