@@ -52,7 +52,7 @@ I'll give a few examples to set up PAM files.
 * unlock SDDM:
 
 ```shell
-: /etc/pam.d/sddm
+$ cat /etc/pam.d/sddm
 
 # Add face recognition
 auth sufficient pam_unix.so try_first_pass likeauth nullok # <-- add lines here
@@ -70,7 +70,7 @@ session         optional        pam_kwallet5.so auto_start
 * unlock KDE locker & other locker related to your DE: 
 
 ```sh
-: /etc/pam.d/kde
+$ cat /etc/pam.d/kde
 #%PAM-1.0
 auth sufficient pam_unix.so try_first_pass likeauth nullok
 auth sufficient /lib/security/pam_howdy.so
@@ -86,7 +86,7 @@ session         include         system-login
 * unlock super user privilege
 
 ``` sh
-: /etc/pam.d/sudo
+$ cat /etc/pam.d/sudo
 
 #%PAM-1.0
 # Add face recognization
@@ -100,7 +100,7 @@ session         include         system-auth
 * unlock PAMAC or other GUI you need to enter password: 
 
 ```sh
-: /etc/pam.d/polkit-1
+$ cat /etc/pam.d/polkit-1
 
 #%PAM-1.0
 auth sufficient pam_unix.so try_first_pass likeauth nullok
@@ -112,4 +112,62 @@ session    include      system-auth
 ```
 
 ### 2. add IR sensor
+
+First, check whether the IR sensor works.  [linux-enable-ir-emitter ](https://github.com/EmixamPP/linux-enable-ir-emitter)will help you with this problem. I'm sorry I couldn't help with this problem for I went through it easily. If your IR sensor works, go to next step: 
+
+Second, scan your system to determine which camera you need to use. I recommend the [v4l-utils](https://archlinux.org/packages/?name=v4l-utils) package:
+
+```shell
+# from wiki
+$ v4l2-ctl --list-devices
+Integrated_Webcam_HD: Integrate (usb-0000:00:14.0-11):
+        /dev/video0
+        /dev/video1
+
+EyeChip: Tobii Video (usb-0000:00:14.0-3.4.3):
+        /dev/video4
+        /dev/video5
+
+HD Webcam C525 (usb-0000:00:14.0-3.4.4):
+        /dev/video2
+        /dev/video3
+```
+
+Generally, the "/dev/video2" would be a right choice. "/dev/video0" might work, but normally it doesn't offer a IR function, only camera is remained. 
+
+Anyway, you need to note the path and add it to `/lib/security/howdy/config.ini`. Modify on line "device_path": 
+
+```sh
+$ cat /lib/security/howdy/config.ini | grep /dev
+# Video devices are usually found in /dev/v4l/by-path/
+device_path = /dev/video2
+```
+
+### 3. add your face 
+
+Use the command: 
+
+```sh
+sudo howdy add
+```
+
+### 4. check the camera
+
+Use command: 
+
+```sh
+sudo howdy test
+```
+
+It will drop a window with a camera capturing your face, and your IR camera should work. The green circle on your face means howdy could recognize your face. 
+
+## Notes 
+
+If some of the functions don't work, you need to change mode to howdy folder `path: /lib/security/howdy`. If you couldn't access to it, congratulations! You could use chmod command to fix it. 
+
+```sh
+sudo chmod -R 755 /lib/security/howdy
+```
+
+
 
