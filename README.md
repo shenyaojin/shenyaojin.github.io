@@ -4,7 +4,7 @@
 
 # Description
 
-Sy Jin's blog. I wrote my thoughts here.
+Shenyao's blog. I wrote my thoughts here.
 
 # Adress
 
