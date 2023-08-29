@@ -8,18 +8,20 @@ mathjax: true
 ---
 
 # Four key criteria
-- Measurement resolution
-- Spatial resolution
-- Measurement range
-- Measurement time(AKA temporal resolution)
+- Measurement resolution (determines system performance, temporal resolution )
+- **Spatial resolution**
+- **Measurement range**  --> can adjust through data acquisition setup. 
+- **Measurement time(AKA temporal resolution)**
 
-> They have *close* relationship. 
+> They have *close* relationship. not independent
 
 # Measurement Resolution
 
 It means how small the physical quantity changes that the sensor can measure.
 
-resolution $$\approx$$ sensitivity $$\ne$$ accuracy
+resolution $$\approx$$ **sensitivity** $$\ne$$ accuracy
+
+
 
 # Measurement Range
 It is usually determined by the length of fiber.
@@ -27,7 +29,7 @@ It is usually determined by the length of fiber.
 # Spatial resolution
 ![](/images/blog/DAS/SP_RE.png)
 
-spatial resolution is $$\delta z$$ in this figure.
+spatial resolution is $$\delta z$$ in this figure. From 10% to 90% amplitude. 
 
 ![](/images/blog/DAS/SP_RE2.png)
 the hot-spot's relative size to the resolution.
@@ -36,7 +38,9 @@ the hot-spot's relative size to the resolution.
 - Broken line is detected by the sensor.
 
 # Measurement time 
-DTS and DSS couldn't return accurate result with a single pulse.
+DFOS will emit thousands of pulse in a second. DTS and DSS couldn't return accurate result with a single pulse, average pulse up = measurement time up. 
+
+
 
 The time taken by the system to acquire the readings for all points in the sensing fiber to required measured resolution.
 
@@ -54,3 +58,11 @@ A short fiber will enable the interrogator to inject more pulse. Thus it has hig
 - Actually in the first figure, the horizontal interval of "x" mark could be regarded as sampling resolution.
 
 backscatter: 後向散射
+
+# Interplay between performance criteria
+
+- Higher backscatter energy -> higher measurement sensitivity
+- Longer distance -> lower backscatter energy
+- Longer fiber -> lower pulse frequency -> lower averaging number => lower measurement sensitivity 
+- Lower pulse width -> higher backscatter energy -> lower spatial resolution
+- Longer measurement time -> higher measurement sensitivity -> **lower temporal resolution**
