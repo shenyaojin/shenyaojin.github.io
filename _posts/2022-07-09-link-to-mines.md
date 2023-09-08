@@ -38,3 +38,12 @@ sudo apt install globalprotect-openconnect
 ```
 
 This version works. Tested.
+
+# Update on 08/30/2023
+
+On Arch Linux/Manjaro Linux: 
+
+```sh
+sudo pacman -S globalprotect-openconnect
+```
+
