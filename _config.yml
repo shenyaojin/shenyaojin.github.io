@@ -1,4 +1,22 @@
-title: My Geek Blog
-description: A hacker-style blog powered by GitHub Pages
-theme: jekyll-theme-hacker
-markdown: kramdown
+# Setup
+title:               Shenyao Jin's Github Page
+tagline:             '123'
+description:         'test'
+url:                 ""
+baseurl:             ''
+paginate:            5
+paginate_path:       "/blog/page:num" 
+permalink:           pretty
+
+# About/contact
+author:
+  name:              Shenyao Jin
+  url:               http://shenyaojin.github.io
+  email:             shenyaojin@mines.edu
+# Gems
+plugins:
+  - jekyll-paginate
+
+# Custom vars
+version:             1.1.0
+google_analytics_id: #UA-XXXX-Y

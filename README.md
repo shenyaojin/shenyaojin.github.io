@@ -1,3 +1,3 @@
-# Description
+Shenyao's github page. Theme: Lanyon by Poole. 
 
-Shenyao's blog. I wrote my thoughts here.
+License: GNU General Public License, Version 2(GPL 2)
