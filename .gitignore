@@ -10,6 +10,7 @@ vendor/
 # VS Code project config
 .vscode/
 
+# macOS system files
 .DS_Store
 
 # Optional: log files or temp
