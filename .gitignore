@@ -1,3 +1,18 @@
-# .github folder
-.github
+# Jekyll build artifacts
+_site/
+.sass-cache/
+.jekyll-cache/
+
+# Local bundler and vendor gems
+.bundle/
+vendor/
+
+# VS Code project config
+.vscode/
+
+# Mac系统临时文件
 .DS_Store
+
+# Optional: log files or temp
+*.log
+*.tmp
