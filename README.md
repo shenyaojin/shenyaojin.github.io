@@ -76,8 +76,8 @@ If you'd like to create your own site using this repository as a starting point,
 2. **Clone Your Fork**  
     Clone the forked repository to your local machine:
     ```bash
-    git clone https://github.com/<your-username>/shenyaojin.github.io.git
-    cd shenyaojin.github.io
+    git clone https://github.com/<your-username>/<your-username>.github.io.git
+    cd <your-username>.github.io
     ```
 
 3. **Install Dependencies**  
