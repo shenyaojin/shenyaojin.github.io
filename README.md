@@ -71,7 +71,7 @@ This site is deployed via GitHub Pages from the `main` branch. Once changes are 
 If you'd like to create your own site using this repository as a starting point, follow these steps:
 
 1. **Fork the Repository**  
-    Click the "Fork" button in the top-right corner of this repository to create your own copy.
+    Click the "Fork" button in the top-right corner of this repository to create your own copy. Remember to rename the repository to `<your-username>.github.io` for GitHub Pages to work correctly!
 
 2. **Clone Your Fork**  
     Clone the forked repository to your local machine:
