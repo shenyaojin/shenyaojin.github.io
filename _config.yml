@@ -1,0 +1,4 @@
+title: My Geek Blog
+description: A hacker-style blog powered by GitHub Pages
+theme: jekyll-theme-hacker
+markdown: kramdown
