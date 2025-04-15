@@ -21,7 +21,8 @@ It is a refractor of `midland` script:
 Get the Poisson ratio, convert DAS/pressure data to strain  
   
 ## Context  
-Theory: [2025-04-14-Poisson-Ratio-Theory](./2025-04-14-Poisson-Ratio-Theory.md)  
+Theory: [2025-04-14-Poisson-Ratio-Theory]({{ '/theory/Poisson-Ratio-Theory/' | relative_url }}) 
+
 ## Workflow  
 1. Load DAS and gauge data.  
 	- **DASdata** -> stage 1  
@@ -42,7 +43,8 @@ gauge_data.select_time(start_time, end_time)
 ```  
 2. After read-in the data:   
 	- DAS data -> Use conversion to change it from $\Delta \Phi$ to $\dot \varepsilon$   
-	- Gauge, calculate gradient  
+	- Gauge, calculate gradient
+  
 ```python  
 #%% Post-processing  
 # 1. DAS data  
@@ -59,7 +61,9 @@ gauge_data_temporal_grad = np.gradient(gauge_data.data, gauge_data.taxis)
 # 3. Single channel DAS data  
 DASchan_strain = DASchan * conversion_factor / unit_factor  
 ```  
+
 ## Results  
+
 - Co plot them. Result can be found on server: `/rcp/rcp42/home/shenyaojin/Documents/bakken_mariner/figs/04142025`  
 - The ratio `strain rate / pressure temoporal grad`$\approx 5.6\times10^{-9} psi^{-1}$   
 - Then in `Pa`, we have:   
@@ -67,8 +71,10 @@ $$
 ratio\ in\ Pa = 5.6\times10^{-9}\frac1{psi}\times \frac{1\ psi}{6894.76\ Pa}\approx 8.06\times 10^{-13}\ Pa^{-1}  
 $$  
 ## Interpretation  
+
 The only thing is Poisson's ratio is smaller than expected. A likely explanation is that the cement sheath is still mechanically coupled to the surrounding formation. In this case, when radial pressure increases and the cement attempts to expand laterally, the adjacent rock formation resists that deformation. This lateral confinement reduces the axial strain induced by the Poisson effect, leading to an underestimated strain-to-pressure ratio and, consequently, an unrealistically low inferred Poisson’s ratio.  
   
 ## Next Steps  
+
 I'm figuring out why cross correlation does not work for this case.   
   
