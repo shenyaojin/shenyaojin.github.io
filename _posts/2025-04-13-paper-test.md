@@ -14,6 +14,8 @@ tags:
 
 This paper is talking about xxx. One sentence summary of the paper.
 
+This post is just for test.
+
 ## Background & Motivation
 
 ## Method & Data
