@@ -15,7 +15,7 @@ In industry we seldomly use ResearchGate. There's few updates here.
 
 ## My CV
 
-You can find my CV [here](https://github.com/shenyaojin/CV/blob/main/resume.pdf).
+You can find my CV [here](https://github.com/shenyaojin/CV/blob/main/resume.pdf). It will be updated automatically whenever I push a new commit to my CV repository.
 
 <iframe src="{{ '/public/files/resume.pdf' | relative_url }}" width="100%" height="600px">
   This browser does not support PDFs. Please download the file instead.
