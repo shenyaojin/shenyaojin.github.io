@@ -1,6 +1,9 @@
 ---
 layout: post
 title: "fiberis.moose setup"
+description: "Setting up the MOOSE environment for the fibeRIS simulator, on macOS and the Lakota cluster."
+toc:
+  beginning: true
 date: 2025-06-24
 categories:
   - theory

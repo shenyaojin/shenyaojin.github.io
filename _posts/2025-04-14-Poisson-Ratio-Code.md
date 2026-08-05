@@ -2,6 +2,7 @@
 share: "True"
 layout: post
 title: Poisson's ratio test python code
+description: "Python workflow for estimating Poisson's ratio from LF-DAS and pressure gauge data."
 date: 2025-04-13
 categories:
   - code

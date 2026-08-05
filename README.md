@@ -1,117 +1,74 @@
-# Shenyao's GitHub Page
+# shenyaojin.github.io
 
-Welcome to the source code repository for my personal website. This site is built using [Jekyll](https://jekyllrb.com/) and the [Lanyon](https://github.com/poole/lanyon) theme by [Poole](https://github.com/poole).
+Source for my personal website, built with [Jekyll](https://jekyllrb.com/) and
+the [al-folio](https://github.com/alshedivat/al-folio) theme (v1.x, gem-based —
+the theme lives in the `al_folio_core` gem; this repo holds only content and
+config).
 
-## 📖 Overview
+Deployed by GitHub Actions ([.github/workflows/ci.yml](.github/workflows/ci.yml))
+on every push to `main`.
 
-This repository contains:
+## Everyday tasks
 
-- **Theme:** Lanyon (a minimal Jekyll theme)
-- **Content:** Personal blog, research notes, and static pages
-- **License:** GNU General Public License v2.0
+### Write a blog post
 
-## 🚀 Getting Started
+Create `_posts/YYYY-MM-DD-short-name.md`:
 
-### Prerequisites
-
-To build and run the site locally, ensure you have the following installed:
-
-- **Ruby 3.x** (recommended via Homebrew or rbenv)
-- **Bundler** (`gem install bundler`)
-- **Jekyll** (installed via the `github-pages` gem)
-
-### Local Development
-
-Follow these steps to build and serve the site locally:
-
-1. Install dependencies:
-    ```bash
-    bundle install
-    ```
-
-2. Serve the site:
-    ```bash
-    bundle exec jekyll serve
-    ```
-
-3. Open your browser and visit:
-    ```
-    http://localhost:4000
-    ```
-
-For subsequent builds, you can use the shortcut `cmd + shift + B` to start the server.
-
-## 📁 Project Structure
-
-The repository is organized as follows:
-
-```
-├── _posts/        # Blog posts (Markdown files)
-├── _layouts/      # Page templates
-├── _includes/     # Shared partials (e.g., sidebar)
-├── public/        # Custom CSS/JS files
-├── blog/          # Blog landing page
-├── index.html     # Homepage
-├── about.md       # About page
+```yaml
+---
+layout: post
+title: "Post title"
+description: "One-sentence summary (shown in the blog list and link previews)."
+date: YYYY-MM-DD
+categories: [geophysics]   # becomes part of the URL: /geophysics/short-name/
+tags: [DAS, inversion]
+# for long posts, add a table of contents:
+# toc:
+#   beginning: true
+# to pin the post as a card on the blog page:
+# featured: true
+---
 ```
 
-## 🌐 Deployment
+A ready-made template lives in `_drafts/paper-reading-template.md`
+(drafts are not published; preview them with `jekyll serve --drafts`).
+Put images in `public/images/<post-name>/` and reference them as
+`/public/images/<post-name>/figure.png`.
 
-This site is deployed via GitHub Pages from the `main` branch. Once changes are pushed to the branch, they are automatically reflected on the live site.
+### Add a publication
 
-## 🧪 Features
+Append a BibTeX entry to `_bibliography/papers.bib`. Useful extra fields:
+`pdf` (link to the PDF), `selected={true}` (show on the home page),
+`abbr` (venue badge). The publications page regenerates automatically.
 
-- **Custom Markdown Support:** Includes MathJax for rendering equations.
-- **Responsive Design:** Clean, sidebar-based navigation that works on all devices.
-- **Syntax Highlighting:** Built-in support for code snippets.
-- **Easy Customization:** Modify content and styles to suit your needs.
+### Edit the about page
 
-## 🛠️ Build Your Own Site
+`_pages/about.md`. The CV iframe points at `/public/files/resume.pdf` —
+**do not move that file**: it is overwritten automatically by the
+[CV repository](https://github.com/shenyaojin/CV) on every push there.
 
-If you'd like to create your own site using this repository as a starting point, follow these steps:
+### Change the accent color
 
-1. **Fork the Repository**  
-    Click the "Fork" button in the top-right corner of this repository to create your own copy. Remember to rename the repository to `<your-username>.github.io` for GitHub Pages to work correctly!
+`_sass/_variables.scss` — `$purple-color` is the light-theme accent,
+`$cyan-color` the dark-theme accent. Everything else in that file matches the
+theme gem's defaults.
 
-2. **Clone Your Fork**  
-    Clone the forked repository to your local machine:
-    ```bash
-    git clone https://github.com/<your-username>/<your-username>.github.io.git
-    cd <your-username>.github.io
-    ```
+### Site-wide settings
 
-3. **Install Dependencies**  
-    Ensure Ruby and Bundler are installed, then run:
-    ```bash
-    bundle install
-    ```
+`_config.yml` — name, description, favicon emoji (`icon:`), analytics,
+feature toggles. Social links live in `_data/socials.yml`.
 
-4. **Customize the Content**  
-    - Update `_config.yml` with your site details (e.g., title, description, URL).
-    - Replace the content in `_posts/` with your own blog posts.
-    - Edit `about.md` and other pages to reflect your personal information.
+## Local preview
 
-5. **Test Locally**  
-    Preview your changes by serving the site locally:
-    ```bash
-    bundle exec jekyll serve
-    ```
-    Visit `http://localhost:4000` in your browser.
+```bash
+bundle install
+bundle exec jekyll serve   # http://localhost:4000
+```
 
-6. **Push Changes**  
-    Commit and push your changes to your forked repository:
-    ```bash
-    git add .
-    git commit -m "Customize site"
-    git push origin main
-    ```
+Requires Ruby 3.3+. Optional: `brew install imagemagick` and flip
+`imagemagick.enabled` to `true` in `_config.yml` for responsive WebP images.
 
-7. **Enable GitHub Pages**  
-    - Navigate to your repository's settings on GitHub.
-    - Under "Pages," select the `main` branch as the source and save.
+## License
 
-Your site will be live at `https://<your-username>.github.io` shortly!
-
-## 📝 License
-
-This project is licensed under the GNU GPL v2. See the `LICENSE` file for more details.
+GNU GPL v2 — see [LICENSE](LICENSE). Theme © the
+[al-folio](https://github.com/alshedivat/al-folio) authors (MIT).

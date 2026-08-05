@@ -24,17 +24,26 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I work on distributed fiber-optic sensing (DAS/DSS) and geophysics at the
-Reservoir Characterization Project (RCP), Colorado School of Mines.
+I work on **distributed fiber-optic sensing** (DAS/DSS) at the
+[Reservoir Characterization Project](https://rcp.mines.edu/), Colorado School
+of Mines. My research uses fiber-optic strain and acoustic measurements to
+monitor hydraulic fractures, evaluate well integrity, and image reservoir
+properties — most recently, inverting DSS strain data for permeability with
+adjoint-based optimization on top of MOOSE poro-mechanical models.
 
-This site hosts my research logs and notes. See the [blog](/blog/) for posts
-and [publications](/publications/) for papers.
+I build my analysis workflows into [fibeRIS](https://github.com/shenyaojin/fibeRIS),
+a Python toolkit for fiber-optic sensing data. This site hosts my
+[research logs](/blog/) and [publications](/publications/).
 
 ## My CV
 
 My CV is updated automatically whenever I push a new commit to my
-[CV repository](https://github.com/shenyaojin/CV).
+[CV repository](https://github.com/shenyaojin/CV) —
+<a href="/public/files/resume.pdf">download the PDF</a>, or browse it below.
 
-<iframe src="/public/files/resume.pdf" width="100%" height="600px">
-  This browser does not support PDFs. Please download the file instead.
-</iframe>
+<div style="border: 1px solid var(--global-divider-color); border-radius: 8px; overflow: hidden; margin-top: 0.5rem;">
+  <iframe src="/public/files/resume.pdf" width="100%" height="700px" style="display: block; border: none;">
+    This browser does not support PDFs. Please
+    <a href="/public/files/resume.pdf">download the file</a> instead.
+  </iframe>
+</div>

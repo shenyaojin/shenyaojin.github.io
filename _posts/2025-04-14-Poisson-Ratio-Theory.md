@@ -2,6 +2,7 @@
 share: "True"
 layout: post
 title: Pressure Diffusion in Fractured Media
+description: "Deriving the strain/pressure ratio from LF-DAS and pressure gauge data in fractured media."
 date: 2025-04-13
 categories:
   - theory
