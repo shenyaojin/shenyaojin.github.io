@@ -1,6 +1,9 @@
 ---
 layout: post
 title: How to deploy a blog using the code in this repository?
+description: "A plain-language guide to deploying your own blog from this repository's code."
+toc:
+  beginning: true
 date: 2025-11-02
 categories:
   - code

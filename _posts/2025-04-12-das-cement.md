@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "IMAGE'25 Conference paper"
+description: "IMAGE'25 conference paper: evaluating cement quality of horizontal wells with low-frequency DAS."
 date: 2025-04-12
 categories: [geophysics]
 ---

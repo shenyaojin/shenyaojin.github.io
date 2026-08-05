@@ -1,6 +1,9 @@
 ---
 layout: post
 title: "fiberis.analyzer philosophy"
+description: "Design philosophy of fiberis.analyzer, the data management and analysis core of fibeRIS."
+toc:
+  beginning: true
 date: 2025-06-24
 categories:
   - code

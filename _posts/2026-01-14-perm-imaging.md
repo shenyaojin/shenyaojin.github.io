@@ -2,6 +2,10 @@
 share: "True"
 layout: post
 title: "Permeability Imaging via DSS Strain Inversion (Research Log)"
+description: "Research log (Jan–Jun 2026): imaging reservoir permeability by inverting DSS strain data with adjoint-based optimization and MOOSE."
+featured: true
+toc:
+  beginning: true
 date: 2026-01-14
 categories:
   - modeling

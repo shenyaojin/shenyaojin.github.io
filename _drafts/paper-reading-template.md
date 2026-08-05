@@ -1,6 +1,11 @@
 ---
 layout: post
 title: Paper Reading Template
+# one-sentence summary; shows in the blog list and in social link previews
+description: ""
+# uncomment the next two lines for long posts to get a table of contents
+# toc:
+#   beginning: true
 date: 2025-04-13
 categories:
   - paper reading

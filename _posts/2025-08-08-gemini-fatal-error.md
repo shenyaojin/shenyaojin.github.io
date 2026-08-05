@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Dialogue Log: Debugging a MOOSE Script with Gemini"
+description: "A dialogue log with Gemini debugging a double-counted diffusion kernel in a MOOSE input file — with a rare 'emotional' response."
 date: 2025-08-08
 categories:
   - misc
