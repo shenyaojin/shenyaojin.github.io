@@ -2,6 +2,7 @@
 _site/
 .sass-cache/
 .jekyll-cache/
+.jekyll-metadata
 
 # Local bundler and vendor gems
 .bundle/
@@ -9,6 +10,9 @@ vendor/
 
 # VS Code project config
 .vscode/
+
+# Claude Code / OMC tooling state
+.omc/
 
 # macOS system files
 .DS_Store
