@@ -1,0 +1,10 @@
+# this file contains the social media links and usernames of the author
+# the socials will be displayed in the order they are defined here
+# for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
+cv_pdf: /public/files/resume.pdf # auto-synced from the CV repo — do not change this path
+email: shenyaojin@mines.edu # your email address
+github_username: shenyaojin # your GitHub user name
+linkedin_username: shenyao-jin-77271b222 # your LinkedIn user name
+orcid_id: 0009-0003-2601-7062 # your ORCID ID
+research_gate_profile: Shenyao-Jin # your profile on ResearchGate
+rss_icon: true # comment this line to hide the RSS icon
