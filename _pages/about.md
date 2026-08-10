@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: RCP @ <a href="https://www.mines.edu/">Colorado School of Mines</a>
+subtitle: <a href="https://rcp.mines.edu/">RCP</a> @ <a href="https://www.mines.edu/">Colorado School of Mines</a>
 
 profile:
   align: right
